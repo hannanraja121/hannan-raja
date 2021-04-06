@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.inner-container {
+    margin: 0 auto;
+    width: 95%;
+}
+.logo-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.img-logo img {
+    padding: 20px;
+    cursor: pointer;
+}
+.menu {
+    background-color: yellow;
+}
+.menu ul li {
+    display: inline-block;
+    padding: 12px;
+    font-size: 18px;
+}
+.menu ul li:hover {
+    background-color: black;
+    color: yellow;
+    cursor: pointer;
+}
+.menu-tittle {
+    text-align: center;
+}
+.menu-tittle h1 {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 30px;
+}
+.menu-tittle p {
+    margin-top: 30px;
+    font-size: 20px;
+}
+.menu-tittle span{
+   line-height: 50px;
+    font-weight: bold;
+}
+.menu-grid {
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    grid-gap: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.single-section img {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.single-section:hover {
+ box-shadow:   5px 7px 19px 2px rgba(0, 128, 96, 0.719);
+    transform: translateY(10px);
+    transition: all .5s ease-in-out;
+ }
+.queto-grid {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 30px;
+    margin-bottom: 40px;
+}
+.img img {
+    width: 100%;
+    height: 85%;
+}
+.img  {
+    position: relative;
+}
+.img button a {
+    text-decoration: none;
+}
+.img button {
+    border: none;
+    font-size: 15px;
+    bottom: 1%;
+    left: 9%;
+    transform: translate(-50%,-50%);
+    position: absolute; 
+}
+.back-ground {
+    background-color: gray;
+    margin-top: 30px;
+    padding: 20px;
+}
+.form h2 {
+    text-align: center;
+    margin-top: 15px;
+}
+.form label {
+    display: block;
+    background-color: gray;
+    margin-top: 35px;
+}
+.back-ground button {
+    background-color: gray;
+    margin-top: 35px;
+    border: none;
+    font-size: 25px;
+}
+.input-div {
+    text-align: center;
+}
+.input-div input {
+    border: 2px solid black;
+    background-color: transparent;
+}
